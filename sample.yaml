@@ -1,0 +1,14 @@
+sample:
+  description: stm32-spi, SPI example on STM32F411RE
+    application
+  name: stm32-spi
+common:
+    tags: introduction
+    harness: console
+    harness_config:
+      type: one_line
+      regex:
+        - "stmp32-spi (.*)"
+tests:
+  sample.stm32-spi:
+    tags: introduction
