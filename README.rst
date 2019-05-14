@@ -42,7 +42,7 @@ for instance to enable debugging, choose another SPI module instead of SPI1 the 
 
 See the comment in `src/main.c <https://github.com/ideak/zephyr-stm32-spi/blob/master/src/main.c>`_ for details about the board specific SPI pin config and MCU specific low-level bus programming (both taken care for us by the *Zephyr* core).
 
-You may also find it useful to read about the *Nucleo-F411RE* board's `pinout layout <https://os.mbed.com/platforms/ST-Nucleo-F411RE>`_ and the *STM32-F411RE* MCU's `datasheet <https://www.st.com/resource/en/datasheet/stm32f411ce.pdf>`_ and `reference manual <https://www.st.com/resource/en/reference_manual/dm00119316.pdf>`_.
+You may also find it useful to read about the *Nucleo-F411RE* board's `pinout layout <https://os.mbed.com/platforms/ST-Nucleo-F411RE>`_, `schematic <https://www.st.com/resource/en/schematic_pack/nucleo_64pins_sch.zip>`_ and the *STM32-F411RE* MCU's `datasheet <https://www.st.com/resource/en/datasheet/stm32f411ce.pdf>`_ and `reference manual <https://www.st.com/resource/en/reference_manual/dm00119316.pdf>`_.
 
 Sample Output
 =============
